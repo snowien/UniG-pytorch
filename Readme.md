@@ -24,7 +24,7 @@ python main.py --dataset imagenet --batch_size 32 --gpu 0 --max_query 100 --p 0.
 # model_type：vanilla,AT,RND,DENT,PNI,UniG
 ```
 
-## Results {python}
+## Results
 
 Hereby, we choose [Square attack](https://github.com/max-andr/square-attack), PreResNet18, CIFAR10 as a simple example. The attack setting is: eps=8/255, query=100/2500, p=0.05. More results on different attacks and datasets see [paper](https://arxiv.org/abs/2208.06228).
 
