@@ -1,0 +1,25 @@
+{
+    "cifar10": [
+        {
+            "average_num_crit_queries": 1.8324324324324324,
+            "average_num_loss_queries": 73.29729729729729,
+            "config": {
+                "attack_name": "NESAttack",
+                "epsilon": 8.0,
+                "fd_eta": 2.55,
+                "lb": 0,
+                "lr": 2,
+                "max_crit_queries": "inf",
+                "max_loss_queries": 100,
+                "p": "inf",
+                "q": 20,
+                "ub": 255
+            },
+            "failure_rate": 0.9391780821917808,
+            "total_crit_queries": 1017,
+            "total_failures": 8570,
+            "total_loss_queries": 40680,
+            "total_successes": 555
+        }
+    ]
+}
