@@ -13,6 +13,10 @@ $ pip install -r envs/requirements.txt
 ## Data Prepare
 
 The first time you run this repository, you need to extract subsets of CIFAR10 and ImageNet using function select_cifar10_100 and select_imagenet_1000, see main.py. A slight modification on ImageNet dataloader is required: annotate subdataloader part if you do not extract it before.
+My substracted datasets: (https://jbox.sjtu.edu.cn/l/W1A4Ce)
+
+## Model Prepare
+Our module can be easily plugged into any well-trained model. The only required thing is to split the forward process into two parts: get_feature() and get_pred() functions. The model used in our paper can be downloaded here: (https://jbox.sjtu.edu.cn/l/01PgbR)
 
 ## Test
 
