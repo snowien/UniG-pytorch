@@ -1,0 +1,22 @@
+{
+  "_comment": "===== MODEL CONFIGURATION =====",
+  "model_dir": "cifar10_models/models/naturally_trained",
+  "model_name": "Standard",
+  "defense": null,
+  "inf_batch_size": 1024,
+  "_comment": "===== DATASET CONFIGURATION =====",
+  "dset_name": "cifar10",
+  "dset_config": {},
+  "_comment": "===== EVAL CONFIGURATION =====",
+  "num_eval_examples": 10000,
+  "eval_batch_size": 100,
+  "_comment": "=====ADVERSARIAL EXAMPLES CONFIGURATION=====",
+  "attack_name": "SignAttack",
+  "attack_config": {
+    "epsilon": 8,
+    "p": "inf",
+    "fd_eta": 12,
+    "max_loss_queries": 2500
+  },
+  "device": "cuda:0"
+}
